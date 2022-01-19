@@ -16,6 +16,10 @@ body {
   font-family: 'Gotham' !important; 
 }
 
+a {
+    color: black;
+}
+
 .navbar-transparent {
     background-color: transparent;
 }
@@ -79,19 +83,9 @@ header.masthead .header-content .header-content-inner p {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%); 
     }
-    header.masthead .header-content .header-content-inner {
+    /* header.masthead .header-content .header-content-inner {
         max-width: 1000px;
-        margin-right: auto;
-        margin-left:  auto; 
-    }
-    header.masthead .header-content .header-content-inner h1 {
-        font-size: 50px; 
-    }
-    header.masthead .header-content .header-content-inner p {
-        font-size: 18px;
-        margin-right: auto;
-        margin-left: auto; 
-    } 
+    } */
 }
 .navbar {
     font-family: 'GothamB';
@@ -99,17 +93,20 @@ header.masthead .header-content .header-content-inner p {
 .home-header {
     font-size: 5em !important;
 }
-.nav-link {
-    color: black;
+.home-tag {
+    font-size: 4em !important;
 }
-a {
+
+.nav-link {
     color: black;
 }
 
 .home-btn-left {
     font-size: 4em;
+    font-family: 'GothamB';
 }
 
 .home-btn-right {
     font-size: 4em;
+    font-family: 'GothamB';
 }
